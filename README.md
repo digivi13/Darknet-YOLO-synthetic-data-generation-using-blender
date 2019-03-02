@@ -7,6 +7,7 @@ Pre-requisite: Knowledge of Blender design/animation software
 To generate YOLO Darnknet CNN training images and annotations, create a model with all materials and animations applied. The scripts render the animations you have created from the frame specified, along with annotations containing the bounding boxes of each of your specified objects
 
 Description of output files: 
+
 Labels.json: Is a summary of the bounding box information for each of the objects in your scene using the bottom left corner as origin.
 The bounding boxes are described as xmin, yimin, xmax, ymax
 
