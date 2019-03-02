@@ -7,8 +7,11 @@ Pre-requisite: Knowledge of Blender design/animation software
 To generate YOLO Darnknet CNN training images and annotations, create a model with all materials and animations applied. The scripts render the animations you have created from the frame specified, along with annotations containing the bounding boxes of each of your specified objects
 
 Description of output files: 
-Labels.json: Is a summary of the bounding box information for each of the objects in your scene using the bottom left corner as origin. The bounding boxes are described as xmin, yimin, xmax, ymax
+Labels.json: Is a summary of the bounding box information for each of the objects in your scene using the bottom left corner as origin.
+The bounding boxes are described as xmin, yimin, xmax, ymax
+
 1-0y-0p.png: The rendered image of your animation. The first integer value is the image output number (starts at 0)
+
 1-0y-0p.txt: The annotation file for the corresponding image. Contains all the needed information for training the YOLO darknet network [class, xcenter, ycenter, width, height]
 
 Step 1: 
